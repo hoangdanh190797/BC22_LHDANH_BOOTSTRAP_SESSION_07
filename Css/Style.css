@@ -1,0 +1,12 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.item__need__custom{
+    position: relative;
+}
+.caption__need__custom{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}

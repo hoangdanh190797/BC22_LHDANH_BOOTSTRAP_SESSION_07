@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- Material Font -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/6.5.95/css/materialdesignicons.min.css"
+    integrity="sha512-Zw6ER2h5+Zjtrej6afEKgS8G5kehmDAHYp9M2xf38MPmpUWX39VrYmdGtCrDQbdLQrTnBVT8/gcNhgS4XPgvEg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./Css/Style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header__" style="position: relative;">
+      <!-- style="position: relative;" -->
+      <!-- container -->
+      <div class="header__imzor container my-3" style="
+            display: flex;
+            position: absolute;
+            justify-content: space-around;
+            z-index: 1;
+            left: 50%;
+            transform: translateX(-50%);
+          ">
+        <!-- position: absolute; -->
+        <div class="header__logo my-auto">
+          <img src="./Image/logo.png" alt="" />
+        </div>
+        <div class="boTrong my-auto">
+          <div class="header__navbar">
+            <ul class="nav nav-tabs">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Home</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Main Demo</a>
+                  <a class="dropdown-item" href="#">Main Demo Dark</a>
+                  <a class="dropdown-item" href="#">Personal Portfolio</a>
+                  <a class="dropdown-item" href="#">Interior Landing</a>
+                  <a class="dropdown-item" href="#">Portfolio One Page 02</a>
+                  <a class="dropdown-item" href="#">Minimal Portfolio</a>
+                  <a class="dropdown-item" href="#">Digital Agency</a>
+                  <a class="dropdown-item" href="#">Creative Agency</a>
+                  <a class="dropdown-item" href="#">Corporate Business</a>
+                  <a class="dropdown-item" href="#">Portfolio One Page</a>
+                  <a class="dropdown-item" href="#">Creative Agency Landing</a>
+                  <a class="dropdown-item" href="#">Business</a>
+                  <a class="dropdown-item" href="#">Designer Portfolio</a>
+                  <a class="dropdown-item" href="#">Home Particles</a>
+                  <a class="dropdown-item" href="#">Studio Agency</a>
+                  <a class="dropdown-item" href="#">Startup</a>
+                  <a class="dropdown-item" href="#">Creative Portfolio</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Service</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Service</a>
+                  <a class="dropdown-item" href="#">Service Details</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">About</a>
+                <div class="dropdown-menu"></div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Pages</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Blog List</a>
+                  <a class="dropdown-item" href="#">Blog Details</a>
+                  <a class="dropdown-item" href="#">Service</a>
+                  <a class="dropdown-item" href="#">Service Details</a>
+                  <a class="dropdown-item" href="#">Portfolio</a>
+                  <a class="dropdown-item" href="#">Portfolio Details</a>
+                  <a class="dropdown-item" href="#">404</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Blocks</a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Portfolio</a>
+                  <a class="dropdown-item" href="#">Team</a>
+                  <a class="dropdown-item" href="#">Service</a>
+                  <a class="dropdown-item" href="#">Video Popup</a>
+                  <a class="dropdown-item" href="#">Progressbar</a>
+                  <a class="dropdown-item" href="#">Gallery</a>
+                  <a class="dropdown-item" href="#">Counters</a>
+                  <a class="dropdown-item" href="#">Blog List</a>
+                  <a class="dropdown-item" href="#">Clint Logo</a>
+                  <a class="dropdown-item" href="#">Contact Form</a>
+                  <a class="dropdown-item" href="#">Google Map</a>
+                  <a class="dropdown-item" href="#">Columns</a>
+                  <a class="dropdown-item" href="#">Pricing Table</a>
+                  <a class="dropdown-item" href="#">Button</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Contact</a>
+                <div class="dropdown-menu"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__button my-auto">
+          <button type="button" class="btn btn-outline-secondary">
+            BUY NOW
+          </button>
+        </div>
+      </div>
+      <div class="header__slider" style="width: 100%">
+        <!-- position: absolute; Ủa tại sao ta??? Nếu thẻ cha là position: absolute; thì thẻ con position:absolute; có nhận không? -->
+        <div id="demo" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+          </ul>
+
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item item__need__custom active">
+              <img class="img-fluid" src="./Image/bg-image-22.jpg" alt="" />
+              <div class="carousel-caption caption__need__custom">
+                <h1>UX Research.</h1>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available but <br />
+                  the majority have suffered alteration.
+                </p>
+                <div class="carousel-caption-button">
+                  <button type="button" class="btn btn-outline-secondary">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item item__need__custom">
+              <img class="img-fluid" src="./Image/bg-image-23.jpg" alt="" />
+              <div class="carousel-caption caption__need__custom">
+                <h1>Marketing</h1>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available but <br />
+                  the majority have suffered alteration.
+                </p>
+                <div class="carousel-caption-button">
+                  <button type="button" class="btn btn-outline-secondary">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item item__need__custom">
+              <img class="img-fluid" src="./Image/bg-image-24.jpg" alt="" />
+              <div class="carousel-caption caption__need__custom">
+                <h1>Development</h1>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available but <br />
+                  the majority have suffered alteration.
+                </p>
+                <div class="carousel-caption-button">
+                  <button type="button" class="btn btn-outline-secondary">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item item__need__custom">
+              <img class="img-fluid" src="./Image/bg-image-20.jpg" alt="" />
+              <div class="carousel-caption caption__need__custom">
+                <h1>UX Research.</h1>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available but <br />
+                  the majority have suffered alteration.
+                </p>
+                <div class="carousel-caption-button">
+                  <button type="button" class="btn btn-outline-secondary">
+                    Contact Us
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Service -->
+  <section id="service__">
+    <div class="service__">
+      <div class="service__content">
+        <div class="service__title text-center my-3">
+          <span>What we can do for you</span>
+          <h1>Our Awesome Service</h1>
+          <p>
+            There are many variations of passages of Lorem Ipsum available,
+            <br />
+            but the majority have suffered alteration.
+          </p>
+        </div>
+        <div class="service__cards">
+          <div class="card-columns container">
+            <div class="card bg-light p-4 mx-auto">
+              <img src="./Image/cast_black_24dp.svg" alt="" />
+              <h4>Business Stratagy</h4>
+              <p>
+                I throw myself down among the tall <br />
+                grass by the stream as I lie close to <br />
+                the earth.
+              </p>
+            </div>
+
+            <div class="card bg-light p-4 mx-auto">
+              <i class="fa fa-desktop"></i>
+              <h4>Website Development</h4>
+              <p>
+                I throw myself down among the tall <br />
+                grass by the stream as I lie close to <br />
+                the earth.
+              </p>
+            </div>
+
+            <div class="card bg-light p-4 mx-auto">
+              <i class="fa fa-layer-group"></i>
+              <h4>Marketing & Reporting</h4>
+              <p>
+                I throw myself down among the tall <br />
+                grass by the stream as I lie close to <br />
+                the earth.
+              </p>
+            </div>
+
+            <div class="card bg-light p-4 mx-auto">
+              <img src="./Image/group_black_24dp.svg" alt="" />
+              <h4>Mobile App Development</h4>
+              <p>
+                I throw myself down among the tall <br />
+                grass by the stream as I lie close to <br />
+                the earth.
+              </p>
+            </div>
+
+            <div class="card bg-light p-4 mx-auto">
+              <img src="./Image/group_black_24dp.svg" alt="" />
+              <h4>Marketing & Reporting</h4>
+              <p>
+                I throw myself down among the tall <br />
+                grass by the stream as I lie close to <br />
+                the earth.
+              </p>
+            </div>
+
+            <div class="card bg-light p-4 mx-auto">
+              <i class="fa fa-desktop"></i>
+              <h4>Mobile App Development</h4>
+              <p>
+                I throw myself down among the tall <br />
+                grass by the stream as I lie close to <br />
+                the earth.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project -->
+  <section id="project__">
+    <div class="project__">
+      <div class="project__title text-center">
+        <span>Our complete project</span>
+        <h1>Our Project</h1>
+        <p>
+          There are many variations of passages of Lorem Ipsum available,
+          <br />
+          but the majority have suffered alteration.
+        </p>
+      </div>
+      <div class="project__content">
+        <div class="project__cards__ container">
+          <div class="card-columns">
+            <div class="card text-center">
+              <img class="card-img-bottom img-fluid" src="./Image/portfolio-4.jpg" alt="" />
+              <div class="card-img-overlay" style="color: white">
+                <div style="position: absolute; bottom: 1rem">
+                  <span>Development</span>
+                  <h1 class="card-title">Web Design</h1>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dignissimos!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <img class="card-img-bottom img-fluid" src="./Image/portfolio-7.jpg" alt="" />
+              <div class="card-img-overlay" style="color: white">
+                <div style="position: absolute; bottom: 1rem">
+                  <span>Development</span>
+                  <h1 class="card-title">Web Design</h1>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dignissimos!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <img class="card-img-bottom img-fluid" src="./Image/portfolio-5.jpg" alt="" />
+              <div class="card-img-overlay" style="color: white">
+                <div style="position: absolute; bottom: 1rem">
+                  <span>Development</span>
+                  <h1 class="card-title">Web Design</h1>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dignissimos!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <img class="card-img-bottom img-fluid" src="./Image/portfolio-8.jpg" alt="" />
+              <div class="card-img-overlay" style="color: white">
+                <div style="position: absolute; bottom: 1rem">
+                  <span>Development</span>
+                  <h1 class="card-title">Web Design</h1>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dignissimos!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <img class="card-img-bottom img-fluid" src="./Image/portfolio-6.jpg" alt="" />
+              <div class="card-img-overlay" style="color: white">
+                <div style="position: absolute; bottom: 1rem">
+                  <span>Development</span>
+                  <h1 class="card-title">Web Design</h1>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dignissimos!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <img class="card-img-bottom img-fluid" src="./Image/portfolio-9.jpg" alt="" />
+              <div class="card-img-overlay" style="color: white">
+                <div style="position: absolute; bottom: 1rem">
+                  <span>Development</span>
+                  <h1 class="card-title">Web Design</h1>
+                  <p class="card-text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Dignissimos!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project__button text-center my-2">
+        <button type="button" class="btn btn-light">VIEW PROJECTS</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about__">
+    <div class="about__">
+      <div class="about__content container py-4">
+        <div class="row">
+          <div class="col-md-5">
+            <div>
+              <img class="img-fluid" src="./Image/about-3.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="about__title">
+              <div>
+                <span>Our company about</span>
+                <h1>About</h1>
+                <p>
+                  There are many variations of passages of Lorem Ipsum
+                  available, but the <br />
+                  majority have suffered alteration in some form, by injected
+                  humour, or <br />
+                  randomised words which dont look even slightly believable.
+                  If you are going to <br />
+                  use a passage of Lorem Ipsum,
+                </p>
+              </div>
+            </div>
+            <div class="about__nav">
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" data-toggle="tab" href="#ourhistory">Our History</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#ourmission">Our Mission</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#ourvision">Our Vision</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-toggle="tab" href="#support">Support</a>
+                </li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane container active" id="ourhistory">
+                  <div>
+                    <h1>Lorem ipsum dolor sit.</h1>
+                    <ul>
+                      <li>The Philosophy Of business analytics</li>
+                      <li>Fast-Track Your business</li>
+                      <li>Lies And Damn Lies About business</li>
+                      <li>The Ultimate Deal On business</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="tab-pane container fade" id="ourmission">
+                  <div>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quam recusandae cum aperiam eveniet necessitatibus
+                    excepturi eaque culpa, neque molestias, ut quos esse
+                    incidunt fugit facilis!
+                    <br />
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Deserunt eum ullam possimus iure corrupti ab similique
+                    animi atque, tempore nam, officiis tenetur eos. Nemo,
+                    placeat.
+                  </div>
+                </div>
+                <div class="tab-pane container fade" id="ourvision">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+                  alias, animi beatae impedit eum possimus? Consequuntur
+                  ratione eaque autem odio pariatur blanditiis modi molestiae
+                  magni?
+                  <br />
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Obcaecati sit, enim ratione sequi ex tenetur ducimus a, odit
+                  numquam blanditiis voluptatum impedit nostrum provident sed.
+                </div>
+                <div class="tab-pane container fade" id="support">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quod, minima qui. Quibusdam magnam minima enim molestias
+                  assumenda, rerum molestiae? Sunt molestias obcaecati ea
+                  repellat natus?
+                  <br />
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Porro quidem eum non sunt amet vel pariatur dolor
+                  repudiandae nihil illo laborum inventore, asperiores
+                  expedita dolores.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content sieu kho -->
+  <section id="content__sieukho">
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div>
+            <div>
+              <div>
+                <p>Afifa Sampa The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                  below for those interested. Sections Bonorum et Malorum original.</p>
+              </div>
+              <div>
+                <h6><span>Afifa Sampa </span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-6" style="display: flex; flex-wrap: wrap;">
+          <div>
+            <div>
+              <img src="./Image/testimonial-1.jpg" alt="">
+            </div>
+          </div>
+  
+          <div>
+            <div>
+              <img src="./Image/testimonial-2.jpg" alt="">
+            </div>
+          </div>
+  
+          <div>
+            <div>
+              <img src="./Image/testimonial-3.jpg" alt="">
+            </div>
+          </div>
+  
+          <div>
+            <div>
+              <img src="./Image/testimonial-4.jpg" alt="">
+            </div>
+          </div>
+  
+          <div>
+            <div>
+              <img src="./Image/testimonial-5.jpg" alt="">
+            </div>
+          </div>
+  
+          <div>
+            <div>
+              <img style="height: 160px; width: 160px;" src="./Image/testimonial-6.jpg" alt="">
+            </div>
+          </div>
+  
+          <div>
+            <div>
+              <img src="./Image/testimonial-7.jpg" alt="">
+            </div>
+          </div>
+  
+          <div>
+            <div>
+              <img src="./Image/testimonial-8.jpg" alt="">
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </div>
+  </section>
+
+  <!-- News -->
+  <section id="news__">
+    <div class="news__">
+      <div class="news__content">
+        <div class="news__title text-center">
+          <span>Latest post</span>
+          <h1>Latest News</h1>
+          <p>
+            There are many variations of passages of Lorem Ipsum available,
+            <br />
+            but the majority have suffered alteration.
+          </p>
+        </div>
+        <div>
+          <div class="news__content__">
+            <div class="news__cards__ container">
+              <div class="card-columns">
+                <div class="card text-center">
+                  <img class="card-img-bottom img-fluid" src="./Image/blog-01.jpg" alt="" />
+                  <div class="card-img-overlay" style="color: white">
+                    <div class="text-left" style="position: absolute; bottom: 1rem">
+                      <span>App Development</span>
+                      <!-- <h1 class="card-title">Web Design</h1> -->
+                      <p class="card-text" style="font-size: 1.5rem">
+                        What is the Difference <br />
+                        between Web and Brand.
+                      </p>
+                      <div>
+                        <button type="button" class="btn btn-outline-secondary">
+                          READ MORE
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card text-center">
+                  <img class="card-img-bottom img-fluid" src="./Image/blog-02.jpg" alt="" />
+                  <div class="card-img-overlay" style="color: white">
+                    <div class="text-left" style="position: absolute; bottom: 1rem">
+                      <span>React App</span>
+                      <!-- <h1 class="card-title">Web Design</h1> -->
+                      <p class="card-text" style="font-size: 1.5rem">
+                        A big ticket gone to be an <br />
+                        interesting look New York.
+                      </p>
+                      <div>
+                        <button type="button" class="btn btn-outline-secondary">
+                          READ MORE
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card text-center">
+                  <img class="card-img-bottom img-fluid" src="./Image/blog-03.jpg" alt="" />
+                  <div class="card-img-overlay" style="color: white">
+                    <div class="text-left" style="position: absolute; bottom: 1rem">
+                      <span>Photoshop</span>
+                      <!-- <h1 class="card-title">Web Design</h1> -->
+                      <p class="card-text" style="font-size: 1.5rem">
+                        Getting tickets to the big <br />
+                        show have a closer look.
+                      </p>
+                      <div>
+                        <button type="button" class="btn btn-outline-secondary">
+                          READ MORE
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="project__button text-center my-2">
+                <button type="button" class="btn btn-light">VIEW MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients -->
+  <section id="client__">
+    <div class="client__">
+      <div class="client__content">
+        <div class="client__title__ text-center">
+          <div>
+            <div>
+              <span>Our Clients </span>
+              <h1>Our Clients</h1>
+              <p>
+                There are many variations of passages of Lorem Ipsum
+                available, <br />
+                but the majority have suffered alteration.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="client__grid__">
+          <div class="service__cards">
+            <div class="card-columns container" style="column-gap: 0rem; padding: 25px 0px;">
+
+              <div class="card bg-light text-center" style="margin: 0px;">
+                <img style="height: 200px;" class="img-fluid" src="./Image/brand-01.png" alt="" />
+              </div>
+
+              <div class="card bg-light text-center" style="margin: 0px;">
+                <img style="height: 200px;" class="img-fluid" src="./Image/brand-02.png" alt="">
+              </div>
+
+              <div class="card bg-light text-center" style="margin: 0px;">
+                <img style="height: 200px;" class="img-fluid" src="./Image/brand-03.png" alt="">
+              </div>
+
+              <div class="card bg-light text-center" style="margin: 0px;">
+                <img style="height: 200px;" class="img-fluid" src="./Image/brand-04.png" alt="">
+              </div>
+
+              <div class="card bg-light text-center" style="margin: 0px;">
+                <img style="height: 200px;" class="img-fluid" src="./Image/brand-05.png" alt="">
+              </div>
+
+              <div class="card bg-light text-center" style="margin: 0px;">
+                <img style="height: 200px;" class="img-fluid" src="./Image/brand-06.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer__" style="background-color: black; color: white;">
+      <div class="footer__content">
+        <div class="footer__partone container">
+          <div class="row p-3">
+            <div class="col-6">
+              <h3>Enough Talk, Let's Build <br> Something Together</h3>
+            </div>
+            <div class="col-6 text-center align-items-center">
+              <button type="button" class="btn btn-outline-secondary">
+                READ OUT NOW
+              </button>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="footer__parttwo container">
+          <div class="row">
+            <div class="col-5">
+              <div class="footer__logo">
+                <img src="./Image/logo-light.png" alt="">
+                <p>Copyright © 2021 Imroz React Template.</p>
+                <p>Built with love in Bangladesh All rights <br> reserved.</p>
+              </div>
+              <div class="footer__logo__detail"></div>
+            </div>
+            <div class="col-2">
+              <div>
+                <h3>Quick Link</h3>
+                <ul style="list-style-type: none; padding: 0; margin: 0;" class="text-left">
+                  <li>
+                    <a href="#">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Blog</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Team</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-2">
+              <div>
+                <h3>Company</h3>
+                <ul style="list-style-type: none; padding: 0; margin: 0;" class="text-left">
+                  <li>
+                    <a href="#">Portfolio</a>
+                  </li>
+                  <li>
+                    <a href="#">About</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Blog</a>
+                  </li>
+                  <li>
+                    <a href="#">Our Team</a>
+                  </li>
+                  <li>
+                    <a href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-3">
+              <div>
+                <h3>Say Hello</h3>
+                <ul style="list-style-type: none; padding: 0; margin: 0;" class="text-left">
+                  <li>
+                    <a href="#">Email: admin@example.com</a>
+                  </li>
+                  <li>
+                    <a href="#">Email: hr@example.com</a>
+                  </li>
+                  <li>
+                    <a href="#">Phone: 01957485123</a>
+                  </li>
+                </ul>
+              </div>
+              <div style="margin-right: 30px;">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
